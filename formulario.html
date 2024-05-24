@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Pesquisa de Satisfação</h1>
+    <form method="post"  action="processar-pesquisa.html">
+        <section>
+         <h2>Dados Pesssoais</h2>
+         <p>
+         <label for="Nome">Nome: </label>
+         <input type="text" id="Nome">
+        </p>
+        <P>
+         <label for="E-mail">E-mail: </label>
+         <input type="email" id="E-mail">
+        </P>
+        <P>
+         <label for="Telefone">Telefone</label>
+         <input type="tel" id="Telefone">
+        </p>
+        </section>
+        <section>
+         <h2>Dados de Pesquisa</h2>
+         <p>
+            De 1 a 5 , indique o nivel de atendimento prestado :
+            </p>
+            <p>
+            <input type="radio" id="1" name="Nivel-Atendimento"> 
+            <label for="1">1</label>
+            <input type="radio" id="2" name="Nivel-Atendimento"> 
+            <label for="2">2</label>
+            <input type="radio" id="3" name="Nivel-Atendimento"> 
+            <label for="3">3</label>
+            <input type="radio" id="4" name="Nivel-Atendimento"> 
+            <label for="4">4</label>
+            <input type="radio" id="5" name="Nivel-Atendimento"> 
+            <label for="5">5</label>
+           </p>
+           <p>
+               <p>
+                   De 1 a 5 , indique o o nivel de sastifação com a resolução do problema :
+                   </p>
+                   <p>
+                   <input type="radio" id="1" name="Resolução-Problema"> 
+                   <label for="1">1</label>
+                   <input type="radio" id="2" name="Resolução-Problema"> 
+                   <label for="2">2</label>
+                   <input type="radio" id="3" name="Resolução-Problema"> 
+                   <label for="3">3</label>
+                   <input type="radio" id="4" name="Resolução-Problema"> 
+                   <label for="4">4</label>
+                   <input type="radio" id="5" name="Resolução-Problema"> 
+                   <label for="5">5</label>
+           </p>
+           <p>
+               <label for="departamento">Departamento de Atendimento</label>
+               <select>
+                   <option>Marketing</option>
+                   <option>Financeiro</option>
+                   <option>Comercial</option>
+                   <option>Logistíca</option>
+                   <option>Suporte</option>
+               </select>
+           </p>
+           <p>
+            <input type="checkbox" id="compatilhar-dados">
+            <label for="compatilhar-dados">Autorizo Compatilhamentos com Terceiros</label>
+        </p>
+        </section>
+        <input type="submit" value="Enviar"/>
+    </form> 
+</body>
+</html>
