@@ -1,0 +1,42 @@
+
+
+/* 
+Cor-do-texto-color:black ;
+DESTAQUE-color:#146551 ;
+Pagina--color:#8FC1B5 ;
+*/
+
+
+html{
+    background-color: antiquewhite;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px 40px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+img{
+    width: 20%;
+}
+.home{
+    background-color: black;
+    color: white;
+    padding: 5px 40px;
+    margin-top: 20px;
+    font-size: 25px; 
+}
+.educacao{
+    background-color:#146551;
+}
+.certificacao{
+    background-color: #146551;
+}
+.habilidade{
+    background-color: #146551 ;
+}
